@@ -434,21 +434,15 @@ body{
 		margin-bottom: 30px;
 		margin-top: 30px;
 	}
-	.filter-section li{
-		list-style: none;
-		padding-bottom: 10px;
-		text-align: left;
-		padding-right:25px;
-		padding-left:0px;
-	}
+	
 }
 
 
 @media(max-width:500px){
 	.directory-header{
-		width: 157%;
+		width: 100%;
 		text-align: center;
-		height: 278px;
+		height: 286px;
 		background-color: rgba(8, 68, 130, 0.88);
 	}
 	.filters-whole{
@@ -458,33 +452,41 @@ body{
 	.filters{
 		display: flex;
 		flex-direction: column;
-		width: 80%;
+		width: 42%;
 		height: auto;
 		background: #FFFFFF;
 		box-shadow: 4px 3px 6px rgba(0, 0, 0, 0.1);
-		margin-left: 12%;
+		margin-left: 4%;
 		margin-top: 30px;
 		margin-bottom: 30px;
 		text-align: center;
 	}
+	
+	.filter-section li{
+		list-style: none;
+		padding-bottom: 10px;
+		text-align: left;
+		padding-right:25px;
+		padding-left:0px;
+	}
 	.search-box{
-		width: 80%;
+		width: 40%;
 		display: flex;
 		height: 46px;
 		border: 2px solid #B5B5B5;
-		margin-left: 6.5%;
+		margin-left: 1%;
 		border-radius: 5px;
 		text-align: center;
 		cursor: pointer;
 	}
 	.directory-profile{
 		height: 250px;
-		width: 80%;
+		width: 48%;
 		background: #FFFFFF;
 		box-shadow: 0px 6px 20px rgba(166, 166, 166, 0.25);
 		border-radius: 10px;
 		margin-top: 20px;
-		margin-left: 7%;
+		margin-left: -4%;
 		display: flex;
 		text-align: center;
 	}
@@ -497,24 +499,55 @@ body{
 	
 	.skill-wrap{
 		background: #337AB7;
-		width: auto;
+		width: 300px;
 		height: auto;
 		display: flex;
 		margin-top: 40px;
 		border-radius: 0 30px 30px 0;
-		padding: 10px 30px 10px 0px
+		padding: 10px -5px 10px -5px;
+	}
+	
+	.skill-wrap li{
+		list-style: none;
+		color: #FCFDFF;
+		display: flex;
+		margin-right: 0.1rem;
+	}
+	.first-nav ul{
+		display: flex;
+		flex-direction:column;
+		align-items:center;
+		margin-left: -360px;
+		margin-top: 30px;
+	}
+	.first-nav li{
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 24px;
+		display: flex;
+		align-items: center;
+		list-style: none;
+		margin-right: 0rem;
+		color: #B2B2B2;
+		cursor: pointer;
 	}
 	.profile-end p{
 		margin-right: auto;
 		margin-left: 35px;
 		cursor: pointer;
 	}
-
+	.profile-contents img{
+		margin-right: 5px;
+		margin-left: 30px;
+		width: 100px;
+		height: 100px;
+	}
 }
 
 @media(max-width:400px){
 	.directory-header{
-		width: 178%;
+		width: 100%;
 		text-align: center;
 		height: 278px;
 		background-color: rgba(8, 68, 130, 0.88);
@@ -522,7 +555,7 @@ body{
 }
 @media(max-width:350px){
 	.directory-header{
-		width: 208%;
+		width: 100%;
 		text-align: center;
 		height: 278px;
 		background-color: rgba(8, 68, 130, 0.88);
