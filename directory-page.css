@@ -434,6 +434,13 @@ body{
 		margin-bottom: 30px;
 		margin-top: 30px;
 	}
+	.filter-section li{
+		list-style: none;
+		padding-bottom: 10px;
+		text-align: left;
+		padding-right:15px;
+		padding-left:0px;
+	}
 
 }
 
